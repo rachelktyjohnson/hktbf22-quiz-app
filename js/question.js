@@ -16,9 +16,6 @@ class Question{
         answers_html += ""
         answers_container.innerHTML = answers_html
 
-        //disable next button
-        let next_button = document.querySelector('.next');
-        next_button.setAttribute('disabled', "disabled")
     }
 
     checkAnswer(answer){
@@ -37,9 +34,6 @@ class Question{
             }
         })
 
-        //enable next button
-        let next_button = document.querySelector('.next');
-        next_button.removeAttribute('disabled')
     }
 
 }
