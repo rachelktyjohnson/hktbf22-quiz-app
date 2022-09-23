@@ -35,7 +35,7 @@ class Game{
         this.handleScoreChange(answer_correct)
 
         //show answers
-        this.question_object.showAnswers(e)
+        this.question_object.showAnswers()
 
     }
 }

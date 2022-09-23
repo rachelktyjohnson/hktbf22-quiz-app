@@ -25,7 +25,7 @@ class Question{
         return answer === this.question.correct_answer
     }
 
-    showAnswers(event){
+    showAnswers(){
         const answers = document.querySelectorAll(".answer")
 
         answers.forEach((answer)=>{
