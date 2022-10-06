@@ -10,10 +10,7 @@ Claim an issue to start working on it!
 
 
 ## New to Pull Requests?
-Not to worry, we were all there once! Here are a few resources to help you along the way
-1. List
-2. Resources
-3. Here
+Not to worry, we were all there once! Check out the resources that have been shared in your TechDegree Slack!
 
 And as always, feel free to reach out in Slack if you have any questions!
 
