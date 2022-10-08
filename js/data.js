@@ -72,11 +72,11 @@ const data = [
     {
         category: "javascript",
         question: "Inside which HTML element do we put JavaScript?",
-        correct_answer: "<script>",
+        correct_answer: "script",
         incorrect_answers: [
-            "<scripting>",
-            "<js>",
-            "<javascript>"
+            "scripting",
+            "js",
+            "javascript"
         ]
     },
     {
@@ -84,7 +84,7 @@ const data = [
         question: "How can you add a comment in a JavaScript?",
         correct_answer: "//This is a comment",
         incorrect_answers: [
-            "<!--This is a comment-->",
+            "# This is a comment",
             "'This is a comment",
             "--This is a comment"
         ]
