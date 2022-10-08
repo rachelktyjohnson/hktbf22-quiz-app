@@ -69,4 +69,34 @@ const data = [
             "="
         ]
     },
+    {
+        category: "javascript",
+        question: "Inside which HTML element do we put JavaScript?",
+        correct_answer: "<script>",
+        incorrect_answers: [
+            "<scripting>",
+            "<js>",
+            "<javascript>"
+        ]
+    },
+    {
+        category: "javascript",
+        question: "How can you add a comment in a JavaScript?",
+        correct_answer: "//This is a comment",
+        incorrect_answers: [
+            "<!--This is a comment-->",
+            "'This is a comment",
+            "--This is a comment"
+        ]
+    },
+    {
+        category: "javascript",
+        question: "How do you round the number 7.25, to the nearest integer?",
+        correct_answer: "Math.round(7.25)",
+        incorrect_answers: [
+            "round(7.25)",
+            "Math.rnd(7.25)",
+            "math.round(7.25)"
+        ]
+    },
 ]
