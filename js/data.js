@@ -99,4 +99,44 @@ const data = [
             "math.round(7.25)"
         ]
     },
+    {
+        category: "css",
+        question: "How would you select all <p> tags with the class of 'fancy'?",
+        correct_answer: "p.fancy",
+        incorrect_answers: [
+            "all-the-fancy-Ps",
+            "p~fancy",
+            "p::'fancy'"
+        ]
+    },
+    {
+        category: "javascript",
+        question: "What value would this code return? 10 === (5 + 5)",
+        correct_answer: "true",
+        incorrect_answers: [
+            "20",
+            "10",
+            "yes"
+        ]
+    },
+    {
+        category: "javascript",
+        question: "How would you show the value of a variable named 'secrets' in the console?",
+        correct_answer: "console.log(secrets)",
+        incorrect_answers: [
+            "console.log('secrets')",
+            "showMe.secrets",
+            "console.secrets(log)"
+        ]
+    },
+    {
+        category: "html",
+        question: "What does HTML stand for?",
+        correct_answer: "Hypertext Markup Language",
+        incorrect_answers: [
+            "Hello there Mr. Lasagna!",
+            "Heavytext Markup Language",
+            "Holy Tech Made-up Lingo"
+        ]
+    }
 ]
