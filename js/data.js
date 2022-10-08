@@ -71,6 +71,16 @@ const data = [
     },
     {
         category: "javascript",
+        question: "Choose the increment operator",
+        correct_answer: "++",
+        incorrect_answers: [
+            "--",
+            "^^",
+            "+"
+        ]
+    },
+    {
+        category: "javascript",
         question: "Inside which HTML element do we put JavaScript?",
         correct_answer: "script",
         incorrect_answers: [
