@@ -21,9 +21,13 @@ class Game{
         //show selection
         e.target.style.borderColor = "black";
 
-
         //show answers
         this.question_object.showAnswers()
 
+        //check if correct answer
+        const answer = this.question_object.question.correct_answer;
+            if (answer === e.target.textContent){
+                correctAnswers ++;
+            }
     }
 }
