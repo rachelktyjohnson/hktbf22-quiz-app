@@ -148,5 +148,66 @@ const data = [
             "Heavytext Markup Language",
             "Holy Tech Made-up Lingo"
         ]
-    }
+    },
+    {
+        category: "css",
+        question: "What does CSS stand for?",
+        correct_answer: "Cascading Style Sheets",
+        incorrect_answers: [
+            "HColor and Style Sheets",
+            "Cascade Style Sheet",
+            "None of the above"
+        ]
+    },
+    {
+        category: "css",
+        question: "Which of the following is the correct syntax for referring the external style sheet?",
+        correct_answer: "<link rel=\"stylesheet\" type=\"text/css\" href=\"example.css\">",
+        incorrect_answers: [
+            "<style src = example.css>",
+            "<stylesheet> example.css </stylesheet>",
+            "<style src = \"example.css\" >"
+        ]
+    },
+    {
+        category: "css",
+        question: "The property in CSS used to change the text color of an element is -",
+        correct_answer: "color",
+        incorrect_answers: [
+            "bgcolor",
+            "background-color",
+            "All of the above"
+        ]
+    },
+    {
+        category: "css",
+        question: "Which of the following is the correct syntax to make the background-color of all paragraph elements to yellow?",
+        correct_answer: "p {background-color : yellow;}",
+        incorrect_answers: [
+            "p {background-color : #yellow;}",
+            "all {background-color : yellow;}",
+            "all p {background-color : #yellow;}"
+        ]
+    },
+    {
+        category: "css",
+        question: "Which of the following property is used as the shorthand property for the padding properties?",
+        correct_answer: "padding",
+        incorrect_answers: [
+            "padding-left",
+            "padding-right",
+            "All of the above"
+        ]
+    },
+    {
+        category: "css",
+        question: "Which of the following CSS property is used to add shadows to the text?",
+        correct_answer: "text-shadow",
+        incorrect_answers: [
+            "text-stroke",
+            "text-overflow",
+            "text-decoration"
+        ]
+    },
+    
 ]
