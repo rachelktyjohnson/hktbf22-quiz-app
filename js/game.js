@@ -20,7 +20,6 @@ class Game{
     handleInteraction(e){
         //show selection
         e.target.style.borderColor = "black";
-
         //show answers
         this.question_object.showAnswers()
 
@@ -29,5 +28,7 @@ class Game{
             if (answer === e.target.textContent){
                 correctAnswers ++;
             }
+
     }
+
 }

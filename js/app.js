@@ -4,9 +4,16 @@ game.startGame();
 const answers = document.querySelector('.answers')
 
 answers.addEventListener('click', (e)=>{
-    game.handleInteraction(e);
-    answers.className = "answers active";
-    updateScore();
+    if(answers.className !== 'answers active'){
+        game.handleInteraction(e)
+        answers.className = "answers active";
+        updateScore();
+    }
+    else{
+        // console.log("click")
+        answers.setAttribute('disabled', true); 
+    }
+     
 })
 
 const next_button = document.querySelector('.next')
