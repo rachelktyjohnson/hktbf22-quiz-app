@@ -32,6 +32,7 @@ class Question{
             } else {
                 answer.style.backgroundColor = "red";
             }
+   
         })
 
     }
