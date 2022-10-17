@@ -37,12 +37,19 @@ document.addEventListener('click', (e) => {
     if (e.target.classList.contains('btn-reset')) {
         game = new Game();
         game.startGame();
+        questionNumber = 1;
+        correctAnswers = 0;
+        scoreBoard.innerHTML = `Your score: ${correctAnswers}/${questionNumber}`;
     }
 })
 
 // Score Variables
-let questionNumber = 1;
-let correctAnswers = 0;
+let questionNumber;
+let correctAnswers;
+if (questionNumber !== 1 && correctAnswers !== 0) {
+    questionNumber = 1;
+    correctAnswers = 0;
+}
 const scoreBoard = document.querySelector('p');
 
 function updateScore(){

@@ -13,6 +13,7 @@ class Game{
         this.handleShowNewQuestion();
         document.getElementById('overlay').style.display = 'none';
         document.querySelector('.total-questions').textContent = `Total Questions: ${data.length}`;
+        document.querySelector('body').style.backgroundColor = '';
     }
 
     handleShowNewQuestion(){
