@@ -4,13 +4,12 @@ game.startGame();
 const answers = document.querySelector('.answers')
 
 answers.addEventListener('click', (e)=>{
-    if(answers.className !== 'answers active'){
+    if(answers.className !== 'answers active' && e.target.classList.contains('answer')){
         game.handleInteraction(e)
         answers.className = "answers active";
         updateScore();
     }
     else{
-        // console.log("click")
         answers.setAttribute('disabled', true); 
     }
      
