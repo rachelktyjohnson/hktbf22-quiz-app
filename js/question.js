@@ -15,7 +15,7 @@ class Question{
         })
         answers_html += ""
         answers_container.innerHTML = answers_html
-
+        this.styleByCategory(this.question.category)
     }
 
     checkAnswer(answer){
@@ -43,6 +43,34 @@ class Question{
             array[i] = array[j];
             array[j] = temp;
         }
+    }
+
+    styleByCategory(category){
+        const body = document.querySelector('body');
+        const h3 = document.querySelector('.category');
+        const answers = document.querySelectorAll(".answer");
+        let catClass = '';
+
+        if (category === 'javascript') {
+            h3.textContent = 'Category: JavaScript';
+            catClass = 'js';
+        } else if (category === 'css') {
+            h3.textContent = 'Category: CSS';
+            catClass = 'css';
+        } else if (category === 'html') {
+            h3.textContent = 'Category: HTML'
+            catClass = 'html';
+        } else {
+            h3.textContent = 'Category: Misc.'
+            catClass = 'other';
+        }
+
+        body.className = "";
+        body.classList.add(catClass);
+
+        answers.forEach((answer) => {
+            answer.classList.add(catClass);
+        })
     }
 
 }
