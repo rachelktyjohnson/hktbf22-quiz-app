@@ -32,7 +32,6 @@ class Question{
             } else {
                 answer.style.backgroundColor = "red";
             }
-   
         })
 
     }
@@ -52,16 +51,16 @@ class Question{
         let catClass = '';
 
         if (category === 'javascript') {
-            h3.textContent = 'Category: JavaScript';
+            h3.textContent = 'Current Category: JavaScript';
             catClass = 'js';
         } else if (category === 'css') {
-            h3.textContent = 'Category: CSS';
+            h3.textContent = 'Current Category: CSS';
             catClass = 'css';
         } else if (category === 'html') {
-            h3.textContent = 'Category: HTML'
+            h3.textContent = 'Current Category: HTML'
             catClass = 'html';
         } else {
-            h3.textContent = 'Category: Misc.'
+            h3.textContent = 'Current Category: Misc.'
             catClass = 'other';
         }
 

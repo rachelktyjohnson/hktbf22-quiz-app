@@ -1,6 +1,6 @@
 class Game{
     constructor(){
-        this.questionArray = [...data]
+        this.questionsArray = [...data];
         this.question_object = null;
     }
 
@@ -11,6 +11,8 @@ class Game{
 
     startGame() {
         this.handleShowNewQuestion();
+        document.getElementById('overlay').style.display = 'none';
+        document.querySelector('.total-questions').textContent = `Total Questions: ${data.length}`;
     }
 
     handleShowNewQuestion(){
@@ -40,13 +42,9 @@ class Game{
         }
     }
 
-    // endQuiz() {
-    //     const main = document.querySelector('main');
-
-    //     main.innerHTML = `
-    //         <h2 class='end'>Quiz Complete!</h2>
-    //         <p class='end'>Your score: (${correctAnswers}/${data.length})</p>
-    //         <button class='restart'>Try Again?</button>
-    //     `;
-    // }
+    endQuiz(score, questionsTotal) {
+        document.getElementById('overlay').style.display = 'flex';
+        document.querySelector('body').style.backgroundColor = '#3659a2';
+        document.getElementById('end-h3').textContent = `Your Score: ${score}/${questionsTotal}`;
+    }
 }

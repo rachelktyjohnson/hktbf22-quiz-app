@@ -1,6 +1,8 @@
 game = new Game();
 game.startGame();
 
+const overlay = document.getElementById('overlay')
+overlay.style.display = 'none';
 const answers = document.querySelector('.answers')
 
 answers.addEventListener('click', (e)=>{
@@ -12,7 +14,6 @@ answers.addEventListener('click', (e)=>{
     else{
         answers.setAttribute('disabled', true); 
     }
-     
 })
 
 const next_button = document.querySelector('.next')
@@ -24,13 +25,20 @@ next_button.addEventListener('click', ()=>{
 
     // if answered all questions...
     if (questionNumber > data.length) {
-        game.endQuiz();
+        game.endQuiz(correctAnswers, data.length);
     } else {
         // if questions still remain...
         game.handleShowNewQuestion();
     }
     }
 });
+
+document.addEventListener('click', (e) => {
+    if (e.target.classList.contains('btn-reset')) {
+        game = new Game();
+        game.startGame();
+    }
+})
 
 // Score Variables
 let questionNumber = 1;
