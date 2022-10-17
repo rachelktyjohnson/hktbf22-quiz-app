@@ -18,10 +18,17 @@ answers.addEventListener('click', (e)=>{
 const next_button = document.querySelector('.next')
 next_button.addEventListener('click', ()=>{
     if(answers.className === 'answers active'){
-    game.handleShowNewQuestion();
     answers.className = 'answers'
     questionNumber ++;
     updateScore();
+
+    // if answered all questions...
+    if (questionNumber > data.length) {
+        game.endQuiz();
+    } else {
+        // if questions still remain...
+        game.handleShowNewQuestion();
+    }
     }
 });
 
