@@ -29,106 +29,106 @@ const data = [
             "h6"
         ]
     },
-    // {
-    //     category: "css",
-    //     question: "What does CSS stand for?",
-    //     correct_answer: "Cascading Style Sheets",
-    //     incorrect_answers: [
-    //         "Creative Style Sheets",
-    //         "Computer Style Sheets",
-    //         "Colorful Style Sheets"
-    //     ]
-    // },
-    // {
-    //     category: "css",
-    //     question: "How do you insert comments in a CSS file?",
-    //     correct_answer: "/* comment */",
-    //     incorrect_answers: [
-    //         "`comment`",
-    //         "// comment",
-    //         "/ comment"
-    //     ]
-    // },
-    // {
-    //     category: "javascript",
-    //     question: "Which built-in method adds one or more elements to the end of an array and returns the new length of the array?",
-    //     correct_answer: "push()",
-    //     incorrect_answers: [
-    //         "last()",
-    //         "put()",
-    //         "add()"
-    //     ]
-    // },
-    // {
-    //     category: "javascript",
-    //     question: "Which operator is used to assign a value to a variable?",
-    //     correct_answer: "+",
-    //     incorrect_answers: [
-    //         "-",
-    //         "*",
-    //         "="
-    //     ]
-    // },
-    // {
-    //     category: "javascript",
-    //     question: "Choose the increment operator",
-    //     correct_answer: "++",
-    //     incorrect_answers: [
-    //         "--",
-    //         "^^",
-    //         "+"
-    //     ]
-    // },
-    // {
-    //     category: "javascript",
-    //     question: "Inside which HTML element do we put JavaScript?",
-    //     correct_answer: "script",
-    //     incorrect_answers: [
-    //         "scripting",
-    //         "js",
-    //         "javascript"
-    //     ]
-    // },
-    // {
-    //     category: "javascript",
-    //     question: "How can you add a comment in a JavaScript?",
-    //     correct_answer: "//This is a comment",
-    //     incorrect_answers: [
-    //         "# This is a comment",
-    //         "'This is a comment",
-    //         "--This is a comment"
-    //     ]
-    // },
-    // {
-    //     category: "javascript",
-    //     question: "How do you round the number 7.25, to the nearest integer?",
-    //     correct_answer: "Math.round(7.25)",
-    //     incorrect_answers: [
-    //         "round(7.25)",
-    //         "Math.rnd(7.25)",
-    //         "math.round(7.25)"
-    //     ]
-    // },
-    // {
-    //     category: "css",
-    //     question: "How would you select all <p> tags with the class of 'fancy'?",
-    //     correct_answer: "p.fancy",
-    //     incorrect_answers: [
-    //         "all-the-fancy-Ps",
-    //         "p~fancy",
-    //         "p::'fancy'"
-    //     ]
-    // },
-    // {
-    //     category: "javascript",
-    //     question: "What value would this code return? 10 === (5 + 5)",
-    //     correct_answer: "true",
-    //     incorrect_answers: [
-    //         "20",
-    //         "10",
-    //         "yes"
-    //     ]
-    // },
+    {
+        category: "css",
+        question: "What does CSS stand for?",
+        correct_answer: "Cascading Style Sheets",
+        incorrect_answers: [
+            "Creative Style Sheets",
+            "Computer Style Sheets",
+            "Colorful Style Sheets"
+        ]
+    },
+    {
+        category: "css",
+        question: "How do you insert comments in a CSS file?",
+        correct_answer: "/* comment */",
+        incorrect_answers: [
+            "`comment`",
+            "// comment",
+            "/ comment"
+        ]
+    },
+    {
+        category: "javascript",
+        question: "Which built-in method adds one or more elements to the end of an array and returns the new length of the array?",
+        correct_answer: "push()",
+        incorrect_answers: [
+            "last()",
+            "put()",
+            "add()"
+        ]
+    },
+    {
+        category: "javascript",
+        question: "Which operator is used to assign a value to a variable?",
+        correct_answer: "+",
+        incorrect_answers: [
+            "-",
+            "*",
+            "="
+        ]
+    },
+    {
+        category: "javascript",
+        question: "Choose the increment operator",
+        correct_answer: "++",
+        incorrect_answers: [
+            "--",
+            "^^",
+            "+"
+        ]
+    },
+    {
+        category: "javascript",
+        question: "Inside which HTML element do we put JavaScript?",
+        correct_answer: "script",
+        incorrect_answers: [
+            "scripting",
+            "js",
+            "javascript"
+        ]
+    },
+    {
+        category: "javascript",
+        question: "How can you add a comment in a JavaScript?",
+        correct_answer: "//This is a comment",
+        incorrect_answers: [
+            "# This is a comment",
+            "'This is a comment",
+            "--This is a comment"
+        ]
+    },
+    {
+        category: "javascript",
+        question: "How do you round the number 7.25, to the nearest integer?",
+        correct_answer: "Math.round(7.25)",
+        incorrect_answers: [
+            "round(7.25)",
+            "Math.rnd(7.25)",
+            "math.round(7.25)"
+        ]
+    },
+    {
+        category: "css",
+        question: "How would you select all <p> tags with the class of 'fancy'?",
+        correct_answer: "p.fancy",
+        incorrect_answers: [
+            "all-the-fancy-Ps",
+            "p~fancy",
+            "p::'fancy'"
+        ]
+    },
+    {
+        category: "javascript",
+        question: "What value would this code return? 10 === (5 + 5)",
+        correct_answer: "true",
+        incorrect_answers: [
+            "20",
+            "10",
+            "yes"
+        ]
+    },
     {
         category: "javascript",
         question: "How would you show the value of a variable named 'secrets' in the console?",
@@ -139,14 +139,14 @@ const data = [
             "console.secrets(log)"
         ]
     },
-    // {
-    //     category: "html",
-    //     question: "What does HTML stand for?",
-    //     correct_answer: "Hypertext Markup Language",
-    //     incorrect_answers: [
-    //         "Hello there Mr. Lasagna!",
-    //         "Heavytext Markup Language",
-    //         "Holy Tech Made-up Lingo"
-    //     ]
-    // }
+    {
+        category: "html",
+        question: "What does HTML stand for?",
+        correct_answer: "Hypertext Markup Language",
+        incorrect_answers: [
+            "Hello there Mr. Lasagna!",
+            "Heavytext Markup Language",
+            "Holy Tech Made-up Lingo"
+        ]
+    }
 ]
