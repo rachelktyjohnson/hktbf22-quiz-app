@@ -133,4 +133,18 @@ const data = [
     correct_answer: "click",
     incorrect_answers: ["mouseclick", "change", "hover"],
   },
+  {
+    category: "javascript",
+    question:
+      "Which function in JavaScript is used to parse a string to an integer?",
+    correct_answer: "parseInt()",
+    incorrect_answers: ["parse()", "toInteger()", "toInt()"],
+  },
+  {
+    category: "javascript",
+    question:
+      "Which of the following will correctly declare a variable in JavaScript?",
+    correct_answer: "const x = 10",
+    incorrect_answers: ["variable x = 10", "x = 10", "let x 10"],
+  },
 ];
