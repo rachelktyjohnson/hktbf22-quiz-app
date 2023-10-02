@@ -130,7 +130,7 @@ const data = [
   {
     category: "javascript",
     question: "Which event occurs when a user clicks on an HTML element?",
-    correct_answer: "onclick",
-    incorrect_answers: ["onmouseclick", "onchange", "onhover"],
+    correct_answer: "click",
+    incorrect_answers: ["mouseclick", "change", "hover"],
   },
 ];
