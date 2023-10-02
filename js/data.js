@@ -120,4 +120,17 @@ const data = [
     correct_answer: "<ul>",
     incorrect_answers: ["<ol>", "<li>", "<list>"],
   },
+  {
+    category: "html",
+    question:
+      "Which HTML attribute is used to specify an alternate text for an image if the image cannot be displayed?",
+    correct_answer: "alt",
+    incorrect_answers: ["desc", "src", "source"],
+  },
+  {
+    category: "javascript",
+    question: "Which event occurs when a user clicks on an HTML element?",
+    correct_answer: "click",
+    incorrect_answers: ["mouseclick", "change", "hover"],
+  },
 ];
