@@ -147,4 +147,17 @@ const data = [
     correct_answer: "const x = 10",
     incorrect_answers: ["variable x = 10", "x = 10", "let x 10"],
   },
+  {
+    category: "css",
+    question:
+      "Which CSS property controls the space between the border and the content inside of it?",
+    correct_answer: "padding",
+    incorrect_answers: ["margin", "inside-border-space", "spacing"],
+  },
+  {
+    category: "javascript",
+    question: "What will the following code return: Boolean(0);",
+    correct_answer: "false",
+    incorrect_answers: ["true", "undefined", "0"],
+  },
 ];
