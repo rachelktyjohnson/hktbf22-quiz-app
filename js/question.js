@@ -50,19 +50,11 @@ class Question{
         const answers = document.querySelectorAll(".answer");
         let catClass = '';
 
-        if (category === 'javascript') {
-            h3.textContent = 'Current Category: JavaScript';
-            catClass = 'js';
-        } else if (category === 'css') {
-            h3.textContent = 'Current Category: CSS';
-            catClass = 'css';
-        } else if (category === 'html') {
-            h3.textContent = 'Current Category: HTML'
-            catClass = 'html';
-        } else {
-            h3.textContent = 'Current Category: Misc.'
-            catClass = 'other';
-        }
+        const categoryMapping = {
+            'javascript': { displayText: 'Current Category: JavaScript', className: 'js' },
+            'css': { displayText: 'Current Category: CSS', className: 'css' },
+            'html': { displayText: 'Current Category: HTML', className: 'html' },
+        };
 
         body.className = "";
         body.classList.add(catClass);

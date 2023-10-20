@@ -160,4 +160,11 @@ const data = [
     correct_answer: "false",
     incorrect_answers: ["true", "undefined", "0"],
   },
+  {
+    category: "javascript",
+    question: "What will the following code return: console.log(0.1 + 0.2 == 0.3);",
+    correct_answer: "false",
+    incorrect_answers: ["true", "undefined", "NaN"],
+  }
 ];
+
