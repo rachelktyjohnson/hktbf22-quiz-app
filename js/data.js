@@ -162,9 +162,15 @@ const data = [
   },
   {
     category: "javascript",
-    question: "What will the following code return: console.log(0.1 + 0.2 == 0.3);",
+    question:
+      "What will the following code return: console.log(0.1 + 0.2 == 0.3);",
     correct_answer: "false",
     incorrect_answers: ["true", "undefined", "NaN"],
-  }
+  },
+  {
+    category: "javascript",
+    question: "Which of the following is NOT a data type in JavaScript?",
+    correct_answer: "char",
+    incorrect_answers: ["string", "number", "object"],
+  },
 ];
-
